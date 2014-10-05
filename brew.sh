@@ -13,17 +13,15 @@
 /usr/local/bin/brew install reattach-to-user-namespace
 /usr/local/bin/brew install rlwrap
 /usr/local/bin/brew install ssh-copy-id
-/usr/local/bin/brew install telnet
 /usr/local/bin/brew install tmux
 /usr/local/bin/brew install wget
 /usr/local/bin/brew install zsh
 
 # Install default software
-brew tap phinze/homebrew-cask
-brew install brew-cask
-brew cask install google-chrome
-brew cask install dropbox
-brew cask install skype
-brew cask install sublime-text
-brew cask install one-password
-brew cask install caffeine
+/usr/local/bin/brew install caskroom/cask/brew-cask
+/usr/local/bin/brew cask install google-chrome
+/usr/local/bin/brew cask install dropbox
+/usr/local/bin/brew cask install skype
+/usr/local/bin/brew cask install sublime-text
+/usr/local/bin/brew cask install onepassword
+/usr/local/bin/brew cask install caffeine
