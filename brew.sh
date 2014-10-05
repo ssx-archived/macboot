@@ -4,8 +4,19 @@
 /usr/local/bin/brew cleanup
 /usr/local/bin/brew cask cleanup
 
-# Install tmux, wget, ncftp, telnet
-/usr/local/bin/brew install tmux ncftp wget telnet
+# Install tmux, wget, ncftp, telnet etc
+/usr/local/bin/brew install colordiff
+/usr/local/bin/brew install curl
+/usr/local/bin/brew install ncftp
+/usr/local/bin/brew install openssl
+/usr/local/bin/brew install pdfgrep
+/usr/local/bin/brew install reattach-to-user-namespace
+/usr/local/bin/brew install rlwrap
+/usr/local/bin/brew install ssh-copy-id
+/usr/local/bin/brew install telnet
+/usr/local/bin/brew install tmux
+/usr/local/bin/brew install wget
+/usr/local/bin/brew install zsh
 
 # Install default software
 brew tap phinze/homebrew-cask

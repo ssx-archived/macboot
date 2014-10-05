@@ -1,4 +1,3 @@
-
 # Install Composer, actually could do this with homebrew
 # https://getcomposer.org/doc/00-intro.md#globally-on-osx-via-homebrew-
 cd /tmp; /usr/bin/curl -sS https://getcomposer.org/installer | php
