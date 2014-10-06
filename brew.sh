@@ -17,7 +17,8 @@
 /usr/local/bin/brew install wget
 /usr/local/bin/brew install zsh
 
-# Install default software
+# Install default software using homebrew-cask
+# http://caskroom.io/
 /usr/local/bin/brew install caskroom/cask/brew-cask
 /usr/local/bin/brew cask install google-chrome
 /usr/local/bin/brew cask install dropbox
@@ -25,3 +26,7 @@
 /usr/local/bin/brew cask install sublime-text
 /usr/local/bin/brew cask install onepassword
 /usr/local/bin/brew cask install caffeine
+
+# To add
+# dayone-cli
+# docker
