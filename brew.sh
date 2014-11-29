@@ -17,6 +17,9 @@
 /usr/local/bin/brew install wget
 /usr/local/bin/brew install zsh
 
+# General web dev
+/usr/local/bin/brew install jq
+
 # Install default software using homebrew-cask
 # http://caskroom.io/
 /usr/local/bin/brew install caskroom/cask/brew-cask
